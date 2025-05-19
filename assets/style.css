@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "CalSans";
+  src: url("fonts/CalSans-Regular.ttf");
+}
+@font-face {
+  font-family: "DMsans";
+  src: url("fonts/DMSans-VariableFont_opsz\,wght.ttf");
+}
+body {
+  background-color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+header nav {
+  font-family: "CalSans";
+  color: white;
+  background: linear-gradient(60deg, #0071BC, #13A2E2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: center;
+}
+.container {
+  border-bottom: 3px solid #0071BC;
+  padding-bottom: 2px;
+  margin-top: 5px;
+  position:relative
+}
+.container .backimage {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.container .container2 {
+  background-color: #13A2E2;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 70%;
+  position: absolute;
+  bottom:0px;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+
+
+
+}
+.container2 h1,p{
+  font-family: "CalSans";
+  color: white;
+  
+  text-align: center;
+  justify-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.container2 .innerborder {
+  border-bottom: 3px solid #0071BC;
+  margin-top:50px;
+  border-radius: 2PX;
+  transform: translateY(-50%);
+
+}
+.servicecontainer .grid {
+  margin-top: 110px;
+  font-family: "CalSans";
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  
+
+}
+.servicehead {
+  font-family: "CalSans";
+  margin-top: 95px;
+  justify-items: center;
+  padding-left: 600px;
+  padding-top: 50px;
+  color: #0071BC;
+}
+.servicecontainer h2{
+  color:#0071BC;
+  margin-inline: auto;
+  width: fit-content;
+  border-bottom:3px solid #13A2E2
+}
+.servicecontainer .fsimage{
+  object-fit: cover;
+  object-position: center;
+  width:50%;
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+.servicecontainer p {
+  color: black;
+  text-align: center;
+  
+}
+.service{
+  display: flex;
+  
+}
+.service .info{
+  border: 3px solid #0071BC;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  margin-left: 5px;
+  padding: 10px;
+}
+.service .info button {
+  color: white;
+  background-color: #0071BC;
+  border: 0px;
+  padding:16px 20px;
+  border-radius: 2px;
+  margin-left: 100px;
+  font-family: "CalSans";
+  font-weight: bold;
+  font-size: 15px;
+}
+.footer {
+  margin-top:10px;
+  background-color: #0071BC;
+  padding-top: 100px;
+  text-align: right;
+}
